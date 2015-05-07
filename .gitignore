@@ -1,0 +1,23 @@
+using System;
+namespace NumberLine
+{
+    class LongNubmerLine
+    {
+        static void Main()
+        {
+            int Rezultat;
+            for (int i = 2; i <= 1001; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Rezultat = i;
+                }
+                else
+                {
+                    Rezultat = i * (-1);
+                }
+                Console.WriteLine(Rezultat);
+            }
+        }
+    }
+}
